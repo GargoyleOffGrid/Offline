@@ -1,0 +1,16 @@
+- id: blackout-72h
+  title: Grid Down – First 72 Hours
+  items:
+    - { label: "Water (3L/person/day)", critical: true }
+    - { label: "Headlamp + spare AA/AAA", critical: true }
+    - { label: "Stove + fuel" }
+    - { label: "Cash (small bills)" }
+    - { label: "Medications + list of allergies", critical: true }
+
+- id: bob-standard
+  title: Bug-Out Bag – Standard (72h)
+  items:
+    - { label: "Water + container", critical: true }
+    - { label: "Shelter (tarp/tent)" }
+    - { label: "Fire kit (bic + ferro)" }
+    - { label: "First aid kit (IFAK)", critical: true }

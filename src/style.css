@@ -1,0 +1,21 @@
+:root{ --bg:#0b0e11; --fg:#e7ecef; --accent:#0f766e; --muted:#94a3b8; }
+*{ box-sizing:border-box }
+body{ margin:0; font-family:system-ui,sans-serif; background:var(--bg); color:var(--fg) }
+.container{ max-width:900px; margin:0 auto; padding:16px }
+header{ display:flex; flex-direction:column; gap:8px }
+nav{ display:flex; gap:8px; flex-wrap:wrap }
+button{ padding:8px 12px; background:#111826; color:var(--fg); border:1px solid #334155; border-radius:8px; cursor:pointer }
+button.active{ background:var(--accent); border-color:var(--accent) }
+.card{ background:#0a0f17; border:1px solid #1f2937; border-radius:12px; padding:12px; margin-top:12px }
+.table{ width:100%; border-collapse:collapse }
+.table th,.table td{ padding:8px; border-bottom:1px solid #1f2937 }
+.muted{ color:var(--muted) }
+
+/* hide number input spinners (Chrome/Safari/Edge) */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+/* hide number input spinners (Firefox) */
+input[type="number"] { -moz-appearance: textfield; }
+
+/* make date inputs look consistent */
+input[type="date"] { color-scheme: dark; }
