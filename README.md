@@ -22,3 +22,6 @@ Offline &amp; An offline-first toolkit — inventory, checklists, maps, and guid
 
 <br>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fe053fc4-9e74-480c-b7c7-ffbb55543ba1" width="300" height="400">
+</p>
